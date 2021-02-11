@@ -1,6 +1,8 @@
-let input = prompt('Enter a number');
-let result = 0;
+function numberSquare() {
+  let input = prompt('Enter a number');
+  let result = 0;
 
-result = Number(input) * Number(input);
+  result = Number(input) * Number(input);
 
-alert(result);
+  alert(result);
+}
