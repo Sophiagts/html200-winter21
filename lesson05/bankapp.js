@@ -9,14 +9,10 @@ while (bankOpen) {
   } else if (userInput === "B") {
   alert(balance);
   } else if (userInput === "D") {
-  const valueToDeposit = prompt("How much would you like to deposit?");
-  balance = balance + Number(valueToDeposit);
+  const depositValue = prompt("How much would you like to deposit?");
+  balance = balance + Number(depositValue);
   } else if (userInput === "W") {
-    const valueToWithdrawl = prompt("How much would you like to withdrawl?");
-    balance = balance - Number(valueToWithdrawl);
+    const withdrawlValue = prompt("How much would you like to withdrawl?");
+    balance = balance - Number(withdrawlValue);
   }
-
-  console.log("Bank Still Open");
 }
-
-console.log('DONE');
