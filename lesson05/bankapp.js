@@ -1,5 +1,5 @@
 let bankOpen = true;
-let balance = 1000;
+let balance = 0;
 
 while (bankOpen) {
   const userInput = prompt("Enter One. Q: Quit, B: Balance, D: Deposit, W: Withdrawl ");
